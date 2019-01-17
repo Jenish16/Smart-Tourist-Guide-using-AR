@@ -1,0 +1,102 @@
+{
+  "project_info": {
+    "project_number": "92965143205",
+    "firebase_url": "https://location-945dc.firebaseio.com",
+    "project_id": "location-945dc",
+    "storage_bucket": "location-945dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92965143205:android:91a7cff0415daab4",
+        "android_client_info": {
+          "package_name": "com.tour.ar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92965143205-r7uir5e7mgou9po0s3knnkcr1qccmbn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tour.ar",
+            "certificate_hash": "04d2138a7979c3b2f55d1170b8afc11cc5f9f535"
+          }
+        },
+        {
+          "client_id": "92965143205-hdkvb1pa5sq3nfgtq2ne8cujf2uggf39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tour.ar",
+            "certificate_hash": "1bf53101a43165f3166880b968b06d8b7f6401cb"
+          }
+        },
+        {
+          "client_id": "92965143205-9po5n5l6dknmfg99gocn0a73rt56v94h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tour.ar",
+            "certificate_hash": "2da2367c43a5f8253811ee0c562fe904ef0157d8"
+          }
+        },
+        {
+          "client_id": "92965143205-p3l1tk3ntelql1650ig76kchm4ok5r7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdpFGVizMsLowkGD1Y_gI14KFHHh_wWx0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92965143205-p3l1tk3ntelql1650ig76kchm4ok5r7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92965143205:android:0706e2975e0b404e",
+        "android_client_info": {
+          "package_name": "com.tour.ar.Loc_AR_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92965143205-p3l1tk3ntelql1650ig76kchm4ok5r7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdpFGVizMsLowkGD1Y_gI14KFHHh_wWx0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

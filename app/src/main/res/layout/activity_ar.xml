@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tour.ar.ARActivity">
+
+    <FrameLayout
+        android:id="@+id/camera_container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/white"
+            android:text="GPS is loading..."/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="80"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:background="@drawable/border_all"
+            android:weightSum="100"
+            android:id="@+id/l1"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:id="@+id/img_src"
+                android:src="@drawable/jenidh"
+                android:adjustViewBounds="true"
+                android:padding="3dp"
+                android:background="@drawable/border_r"
+                android:scaleType="centerCrop"
+                android:alpha="0.7"/>
+            <LinearLayout
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:id="@+id/l2"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:id="@+id/heading"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:alpha="0.7"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/discription"
+                    android:layout_weight="60"
+                    android:background="@drawable/border_t"
+                    android:padding="5dp"
+                    android:text="Discription"
+                    android:alpha="0.7"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
